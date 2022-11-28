@@ -1,0 +1,16 @@
+.boxborder.mt-4 {
+    border: 1px solid #888888;
+    border-radius: 7px;
+    padding: 20px;
+    position: relative;
+}
+span.borderTxt {
+    position: absolute;
+    top: -13px;
+    background: #fff;
+}
+button.refeshBtn {
+    border-radius: 7px;
+    padding: 0px 7px;
+    font-size: 23px;
+}

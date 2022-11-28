@@ -1,0 +1,17 @@
+.sidebar {
+    height: 100vh;
+    transition: 0.5s;
+} 
+span.icon-suffix {
+    display: flex;
+    align-items: center;
+}
+.sidebar a.active {
+    background-color: #ffffff !important;
+    color: #0b76c9;
+    display: block;
+    border-radius: 8px;
+}
+.LeBlV .side-icon {
+    margin-right: 12px !important;
+}

@@ -1,0 +1,18 @@
+@import "style.scss";
+
+  .sigContainer {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: $white;
+  }
+  
+  .sigPad {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .buttons {
+    width: 100%;
+    height: 30px;
+  }

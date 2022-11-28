@@ -1,0 +1,428 @@
+@import "style.scss";
+
+.head_text {
+    font-size: calc(1.3rem + .6vw);
+    font-weight: $weight_500;
+}
+
+.font-12 {
+    font-size: $font_12;
+}
+
+.font-15 {
+    font-size: $font_15;
+}
+
+.font-18 {
+    font-size: $font_18;
+}
+.font-17 {
+    font-size: $font_17;
+}
+
+.font-20 {
+    font-size: $font_20;
+}
+
+.font-1_5 {
+    font-size: $font15;
+}
+
+.font-25 {
+    font-size: 25px;
+    ;
+}
+
+.font-30 {
+    font-size: $font_30;
+}
+
+.gray {
+    color: $gray;
+}
+
+.txt_color {
+    color: $blue;
+}
+
+.txt_black{
+    color: $black;
+}
+.bg_color_blue {
+    background-color: $blue;
+}
+
+.bg_color_lightblue {
+    background-color: $uranian_blue;
+}
+
+.color_red {
+    color: $dark_red;
+}
+
+.bg_card {
+    background-color: $white;
+    padding: 15px;
+    box-shadow: $shadow;
+    border-radius: $radias_10;
+}
+
+.bg_card_side {
+    padding: 15px;
+    box-shadow: $shadow;
+    border-radius: $radias_10;
+}
+
+.border_05 {
+    border: $border_05;
+}
+
+.red_light {
+    background-color: $red_light;
+}
+
+.green_light {
+    background-color: $green_light;
+}
+
+.pink_light {
+    background-color: $pink_light;
+}
+
+.grey_light {
+    background-color: $grey_light;
+}
+
+.gama_green_light {
+    background-color: $gama_green_light ;
+}
+
+.purpal_light {
+    background-color: $purpal_light;
+}
+
+.red_light_20 {
+    background-color: $red_light_20;
+}
+
+.side_list1 {
+    background: $sky_blue !important;
+    color: $white;
+}
+
+.side_list2 {
+    background: $yellow !important;
+    color: $white;
+}
+
+.side_list3 {
+    background: $red !important;
+    color: $white;
+}
+
+.side_list4 {
+    background: $gama_green !important;
+    color: $white;
+}
+
+.side_list5 {
+    background: $bright_turquoise !important;
+    color: $white;
+}
+
+.side_list6 {
+    background: $cyan !important;
+    color: $white;
+}
+
+.py-10 {
+    padding: 5rem 0;
+}
+
+.bg_col {
+    background-color: $white;
+    padding: 20px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    border-radius: $radias_10;
+    margin-top: 5px;
+}
+
+.bg_col_mt-5 {
+    margin-top: 25px !important;
+}
+
+.bg_col_100h {
+    background-color: $white;
+    padding: 15px;
+    box-shadow: 0px 0px 6px rgb(0 0 0 / 25%);
+    border-radius: $radias_10;
+    margin-top: 25px;
+    // height: 100%;
+}
+
+.icon_bg {
+    font-size: 25px;
+    font-weight: 800;
+    background-color: $icon_bg_color;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $blue;
+    border-radius: $radias_10;
+    margin-right: 10px;
+}
+
+/* -------------time line--------------- */
+.padding {
+    padding: 2rem
+}
+
+.tl-item {
+    border-radius: 3px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.tl-item {
+    padding: 20px;
+}
+
+.tl-content {
+    padding: 10px 30px;
+}
+
+.tl-item:last-child .tl-dot:after {
+    display: none
+}
+
+.tl-item.active .tl-dot.b-danger:before {
+    border-color: $dark_red;
+    box-shadow: 0 0 0 10px rgba(189, 61, 68, 0.13);
+}
+
+.tl-item.active .tl-dot.b-primary:before {
+    border-color: $blue;
+    box-shadow: 0 0 0 10px rgba(11, 118, 201, 0.13);
+}
+
+.tl-item.active .tl-dot.b-success:before {
+    border-color: $dark_green;
+    box-shadow: 0 0 0 10px rgba(4, 142, 18, 0.13);
+}
+
+.tl-item.active .tl-dot.b-gray:before {
+    border-color: $granite_gray;
+}
+
+.tl-dot {
+    position: relative;
+    border-color: rgba(160, 175, 185, .15);
+}
+
+
+.b-gray:after,
+.b-gray:before {
+    content: '';
+    position: absolute;
+    border-color: inherit;
+    width: 72px;
+    height: 30px;
+    top: 15px;
+    left: 25%;
+    transform: translateX(-50%);
+    background: #F4F4F4;
+    border: 0.5px solid #D3D3D3;
+    border-radius: 50px;
+}
+
+.b-danger:after,
+.b-danger:before {
+    content: '';
+    position: absolute;
+    border-color: inherit;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $dark_red;
+}
+
+.b-primary:after,
+.b-primary:before {
+    content: '';
+    position: absolute;
+    border-color: inherit;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $darl_blue;
+}
+
+.b-success:after,
+.b-success:before {
+    content: '';
+    position: absolute;
+    border-color: inherit;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $dark_green;
+}
+
+.tl-dot:after {
+    width: 0;
+    height: auto;
+    top: 56px;
+    bottom: -55px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-radius: 0
+}
+
+.b-gray:after {
+    width: 0;
+    height: auto;
+    top: 45px;
+    bottom: -55px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-radius: 0
+}
+
+.tl_text {
+    position: relative;
+    top: 75%;
+    right: 25%;
+}
+
+.iconT_line {
+    font-size: 20px;
+    position: relative;
+    margin-top: 26px;
+    color: $white;
+}
+
+.b-danger {
+    border-color: $btn_red !important;
+}
+
+.b-success {
+    border-color: $green !important;
+}
+
+.btn_cancel {
+    width: 120px;
+    height: 40px;
+    background: $btn_red;
+    border-radius: 50px;
+    border: $btn_red;
+    color: $white;
+}
+
+.btn_save {
+    width: 120px;
+    height: 42px;
+    background: $green;
+    border-radius: 50px;
+    border: $green;
+    color: $white;
+}
+.btn_Blue {
+    width: 120px;
+    height: 40px;
+    background: $blue;
+    border-radius: 50px;
+    border: $blue;
+    color: $white;
+}
+
+.accordion {
+    --bs-accordion-btn-icon: url("../../assets/icon_1.svg") !important;
+    --bs-accordion-btn-active-icon: url("../../assets/icon_2.svg") !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: unset;
+    box-shadow: unset;
+}
+
+.accordion-button:focus {
+    border-color: unset;
+    box-shadow: unset;
+}
+
+.accordion-button {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+button.btn_edit {
+    background: $blue;
+    color: $white;
+    border-radius: 22px;
+    border: 1px solid $blue;
+    padding: 5px 10px;
+}
+
+button.btn_delete {
+    background: $btn_red;
+    color: $white;
+    border-radius: 22px;
+    border: 1px solid $btn_red;
+    padding: 5px 10px;
+}
+
+button.btn_default {
+    background: $gray;
+    color: $white;
+    border-radius: 22px;
+    border: 1px solid $gray;
+    padding: 5px 10px;
+}
+
+.card_detail {
+    a.btn_edit {
+        color: $blue;
+        text-decoration: none;
+
+    }
+
+    a.btn_delete {
+        color: $btn_red;
+        text-decoration: none;
+    }
+
+    a.btn_default {
+        color: $gray;
+        text-decoration: none;
+    }
+
+    a p {
+        font-size: $font-12;
+        text-decoration: none;
+        margin-bottom: none ;
+    }
+}

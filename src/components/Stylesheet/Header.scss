@@ -1,0 +1,159 @@
+@import "style.scss";
+@import './abstracts/mixins';
+
+.globe img {
+    width: 50px;
+}
+
+.search_head {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 13px;
+    cursor: pointer;
+    background: $white;
+    height: 20px;
+    font-size: 20px;
+    width: 33px;
+}
+
+.l_navbar,
+.sidebar,
+.TabNav {
+    .nav-item {
+        padding: 0 8px;
+    }
+}
+
+.userInput,
+.orderInput {
+    position: relative;
+
+}
+
+.btn_theame {
+    background-color: $blue !important;
+    color: $white !important;
+    border-radius: 50px;
+}
+
+.imguser img {
+    width: 50px;
+}
+
+.btn_H_W {
+    width: 120px;
+    height: 42px;
+}
+
+.switch {
+    font-size: 26px;
+    margin-left: 10px;
+    color: $blue;
+}
+
+.switchImg {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #000;
+}
+
+.align {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuIcon {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+// Nav {
+//     height: 72px;
+// }
+
+.navbar a {
+    justify-content: center;
+    color: #5a5a5a;
+    text-decoration: none;
+    align-items: center;
+}
+.justify-content-unset{
+    justify-content: unset !important;
+}
+
+
+#responsive-navbar-nav {
+    z-index: 1;
+}
+
+.mainHeader {
+    #basic-navbar-nav {
+        z-index: 9;
+
+        @include xl {
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+
+        .navbar-nav {
+            .nav-item {
+                .userName {
+                    font-size: 14px;
+                }
+
+                .fw-bold {
+                    span {
+                        @include xxl {
+                            // display: flex;
+                            // flex-direction: column;
+                            // font-size: 12px; 
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .searchInput {
+                display: flex;
+
+                @include xl {
+                    justify-content: center;
+                    align-items: center;
+                    padding-bottom: 10px;
+                }
+            }
+
+            .navMenu {
+                display: flex;
+
+                @include xl {
+                    justify-content: center;
+                    align-items: center;
+                    padding-bottom: 10px;
+                }
+            }
+
+            .userLogin {
+                display: flex;
+                @include xl {
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width:991px) {
+    .align {
+        align-items: unset;
+    }
+
+    .switchImg {
+        justify-content: unset;
+    }
+}

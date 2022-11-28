@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import "./components/Stylesheet/style.scss";
+.App {
+  font-family: 'Nunito Sans', sans-serif;
+  overflow-x: hidden;
+  position: relative;
+  transition: 0.5s;
+  width: 100%;
+}
+.app_page{
+  display: flex;
+  height: 100vh;
+}
+.btn_H_W{
+  width: 120px;
+  height: 42px;
+}
+.btn_green{
+  background: $green;
+  border-radius: 50px;
+  border: $green;
+  color: $white;
+}
+.btn_blue{
+  background: $blue;
+  border-radius: 50px;
+  border: $blue;
+  color: $white;
+}
+.btn_red{
+  background: $btn_red;
+  border-radius: 50px;
+  border: $btn_red;
+  color: $white;
+}

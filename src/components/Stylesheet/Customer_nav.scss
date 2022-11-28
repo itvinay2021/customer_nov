@@ -1,0 +1,46 @@
+@import "style.scss";
+.TabNav {
+    a {
+        width: 175px;
+        display: inherit;
+        text-align: center;
+        padding: 10px;
+        list-style: none;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.7s;
+        color: #666666;
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC !important;;
+        border-radius: 50px !important;;
+        text-decoration: none;
+    }
+    a.active {
+        background-color: $blue !important;
+        color: $white;
+        border-radius: 50px;
+        padding: 10px;
+    }
+    a#nav-dropdown{
+        padding: 10px !important;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+    }
+    a.dropdown-item.active{
+        border-radius: unset !important;
+
+    }
+    a.dropdown-item{
+        border-radius: unset !important;
+        width: 200px;
+    }
+    .nav-pills .show>.nav-link
+    {
+        background-color: $blue;
+        color: $white;
+    }
+}
+.btn_green{
+    background-color: $green;
+}
+
